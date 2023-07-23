@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+button
+{
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 4px;
+    background-color: #436ab6;
+    color: #fff;
+}
+
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1a20;
+}
+
+.converter
+{
+    padding: 20px 15px;
+    width: 400px;
+    height: 350px;
+    color: #436ab6;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.amount__wrapper
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.amount__input
+{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #436ab6;
+    border-radius: 4px;
+}
+.currencies
+{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.icon
+{
+    align-self: center;
+    cursor: pointer;
+}
+.select_box
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 45px;
+    border: 1px solid #436ab6;
+    border-radius: 4px;
+    /* background-color: red; */
+}
+.select_box select
+{
+    width: auto;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+}
+.select_box img
+{
+    max-width: 25px;
+}

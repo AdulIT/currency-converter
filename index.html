@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form action="#" class="converter">
+        <h1 class="title">Currency Converter</h1>
+        <div class="amount__wrapper">
+            <input type="text" name="amount" id="amount" class="amount__input">
+            <label for="amount" class="amount__label">Enter amount</label>
+        </div>
+
+        <div class="currencies">
+            <div class="from">
+                <p>From</p>
+                <div class="select_box">
+                    <img src="https://flagsapi.com/US/flat/24.png">
+                    <select name="" id=""></select>
+                </div>
+            </div>
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+                <p>To</p>
+                <div class="select_box">
+                    <img src="https://flagsapi.com/BE/flat/24.png">
+                    <select name="" id=""></select>
+                </div>
+            </div>
+        </div>
+        <p class="exchange_rate">Getting exchange ...</p>
+        <button class="exchange_btn">Get exchange</button>
+    </form>
+
+    <!-- SCRIPT -->
+    <script type="module" src="js/country-list.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
